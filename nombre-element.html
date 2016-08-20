@@ -1,0 +1,19 @@
+<dom-module id="nombre-element">
+    
+    <template>
+        <span>mi nombre es [[name]]</span>
+    </template>
+    <script>
+        Polymer({
+            is: "nombre-element",
+
+            properties : {
+                name : {
+                    type : String,
+                    value : "default"
+                }
+            }
+        });
+    </script>
+
+</dom-module>
